@@ -1,0 +1,10 @@
+import math
+a=float(input())
+b=int(input())
+base=int(input())
+power=int(input())
+print(math.floor(a))
+print(math.ceil(a))
+print(int(round(a,0)))
+print(int(math.sqrt(b)))
+print(int(math.pow(base,power)))
